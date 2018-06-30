@@ -56,3 +56,4 @@ config :trak, Trak.Repo,
   pool_size: 10
 
 import_config "dev.secret.exs"
+

@@ -15,7 +15,7 @@ config :trak, TrakWeb.Endpoint,
   secret_key_base: "SW3PrLJ/dN41WWiFs7LwvVl6qtHqTldB8MV9X/Exm27Prqw6t9AJynLDk20alBEv",
   render_errors: [view: TrakWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Trak.PubSub,
-           adapter: Phoenix.PubSub.PG2]
+  adapter: Phoenix.PubSub.PG2]
 
 # Configures Elixir's Logger
 config :logger, :console,
