@@ -9,3 +9,12 @@
 #
 # We recommend using the bang functions (`insert!`, `update!`
 # and so on) as they will fail if something goes wrong.
+
+# alias my repo
+alias Trak.Repo
+alias Trak.Ingredient.Food
+
+#Create Foods
+for _index <- 1..20 do
+  food = Repo.insert!( %Food{ name: FakerElixir.Name.name } )
+end
